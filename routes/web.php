@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
+    if (view()->exists('index')) {
+        return view('index');
+    }
+    
     return view('welcome');
 });
