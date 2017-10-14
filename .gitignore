@@ -1,6 +1,7 @@
 /public/hot
 /public/storage
 /public/static
+/resources/views/index.blade.php
 /storage/*.key
 /vendor
 /.idea
